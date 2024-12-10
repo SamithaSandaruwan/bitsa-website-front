@@ -15,12 +15,12 @@ const Header = () => {
         </div>
 
         {/* Center section (Navigation links) */}
-        <div className="flex space-x-6 text-gray-700 font-semibold justify-center flex-grow">
-          <a href="#home" className="hover:text-[#03002B]">Home</a>
-          <a href="#about-us" className="hover:text-[#03002B]">About Us</a>
-          <a href="#events" className="hover:text-[#03002B]">Events</a>
-          <a href="#newsletters" className="hover:text-[#03002B]">Newsletters</a>
-          <a href="#contact-us" className="hover:text-[#03002B]">Contact Us</a>
+        <div className="flex space-x-6 text-gray-700 font-semibold justify-center flex-grow text-[24px]">
+          <a href="/" className="hover:text-[#03002B]">Home</a>
+          <a href="/aboutus" className="hover:text-[#03002B]">About Us</a>
+          <a href="/events" className="hover:text-[#03002B]">Events</a>
+          <a href="/newsletters" className="hover:text-[#03002B]">Newsletters</a>
+          <a href="/contactus" className="hover:text-[#03002B]">Contact Us</a>
         </div>
 
         {/* Right section (Member button) */}
