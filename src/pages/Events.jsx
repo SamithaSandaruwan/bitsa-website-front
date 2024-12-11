@@ -26,11 +26,11 @@ const Events = () => {
   return (
     <div className="py-16 px-6">
       {/* Events Title */}
-      <div className="text-center mb-16">
+      {/* <div className="text-center mb-16">
         <h2 className="text-[60px] font-bold text-[#03002B] border-b-4 border-[#03002B] inline-block">
           Events
         </h2>
-      </div>
+      </div> */}
 
       {/* Event List */}
       <div className="max-w-screen-xl mx-auto space-y-16">
@@ -70,7 +70,7 @@ const Events = () => {
               {/* View More Button */}
               <div className="text-center flex">
                 <a
-                  href="#view-more"
+                  href="/events/:eventId"
                   className="bg-[#03002B] text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors"
                 >
                   View More

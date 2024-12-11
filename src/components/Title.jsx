@@ -5,7 +5,7 @@ import { IoCall, IoMail } from "react-icons/io5";
 
 const Title = () => {
   return (
-    <div className="bg-[#03002B] text-white py-1 px-6">
+    <div className="bg-[#03002B] text-white py-1 px-6 hidden md:block">
       <div className="flex justify-between items-center">
         {/* Left section */}
         <div className="flex space-x-6">

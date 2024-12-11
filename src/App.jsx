@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Newsletters from "./pages/Newsletters";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import Event from "./pages/Event";
 
 const App = () => {
   return (
@@ -18,8 +19,10 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/events/:eventId" element={<Event />} />
           <Route path="/events" element={<Events />} />
           <Route path="/newsletters" element={<Newsletters />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
         </Routes>

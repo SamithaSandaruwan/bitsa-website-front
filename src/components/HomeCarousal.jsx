@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import { GoDot , GoDotFill } from "react-icons/go";
 
 const HomeCarousel = () => (
     <section className="py-16 px-6 bg-gray-100">
@@ -43,6 +44,11 @@ const HomeCarousel = () => (
                         </a>
                     </div>
                 </div>
+            </div>
+            <div className='flex flex-row items-center justify-center pt-10'>
+                <GoDotFill size={30} color='#03002B'/>
+                <GoDot size={30} color='#03002B'/>
+                <GoDotFill size={30} color='#03002B'/>
             </div>
         </div>
     </section>
